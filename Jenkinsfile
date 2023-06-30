@@ -1,6 +1,6 @@
 pipeline {
     agent {
-      label 'jenkins'
+      label 'jenkins-slave' 
     }
     stages {
         stage('Install') {
